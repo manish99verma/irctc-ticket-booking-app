@@ -10,6 +10,12 @@ html {
   color: #333333;
 }
 
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+  animation-duration: 200ms;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -229,6 +235,7 @@ html {
   gap: 8px;
   font-weight: 900;
   font-size: 26px;
+  cursor: pointer;
 }
 
 .search-button img {
