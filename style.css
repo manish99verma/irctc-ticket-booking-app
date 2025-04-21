@@ -1,0 +1,237 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  color: #333333;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 50px 100px;
+  gap: 32px;
+}
+
+.content-top-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-top-left {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.content-top-right {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 12px;
+}
+
+.top-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.primary-button {
+  background-color: #fb792b;
+  padding: 10px 16px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.outlined-button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.header-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.image-container {
+  display: flex;
+  flex: 0.75;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+.green-text {
+  color: #01bb0a;
+}
+
+.orange-text {
+  color: #fb792b;
+}
+
+.blue-text {
+  color: #213d77;
+}
+
+.filter-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-button-blue,
+.filter-button-outlined {
+  text-align: center;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter-button-blue {
+  background-color: #213d77;
+  color: white;
+}
+
+.filter-button-outlined {
+  background-color: white;
+  border: 1px solid #33333380;
+}
+
+.filter-button-blue .filter-button-outlined img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.train-container,
+.ticket-container {
+  display: flex;
+  flex: 1;
+  border: 1px solid #3333331a;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 16px 0;
+  box-shadow: 2px solid rgba(0, 0, 0, 10);
+  border-radius: 8px;
+}
+
+.search-input-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.train-from-container,
+.train-to-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.train-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.from-button,
+.to-button {
+  color: #333333;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+}
+
+.to-button img {
+  width: 12px;
+  height: 6px;
+  object-fit: contain;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.station-name {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.station-code {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.search-button {
+  background-color: #01bb0a;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px solid rgba(0, 0, 0, 10);
+  gap: 8px;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.search-button img {
+  width: 30px;
+  height: 30px;
+}
